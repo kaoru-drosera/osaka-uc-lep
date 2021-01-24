@@ -217,15 +217,11 @@ body {
 	width: 100%;
 }
 
-.main-link-wrap .main-link-wrap-li:nth-of-type(1) > a span,
-.main-link-wrap .main-link-wrap-li:nth-of-type(2) > a span,
-.main-link-wrap .main-link-wrap-li:nth-of-type(3) > a span {
+.main-link-wrap .main-link-wrap-li .hassub {
 	position: relative;
 }
 
-.main-link-wrap .main-link-wrap-li:nth-of-type(1) > a span::before,
-.main-link-wrap .main-link-wrap-li:nth-of-type(2) > a span::before,
-.main-link-wrap .main-link-wrap-li:nth-of-type(3) > a span::before {
+.main-link-wrap .main-link-wrap-li .hassub::before {
 	background-image: url("../img/imgs0/ico_arrow01.png");
 	content: '';
 	height: 11px;
@@ -236,8 +232,7 @@ body {
 	width: 16px;
 }
 
-.main-link-wrap .main-link-wrap-li:nth-of-type(2) > a span,
-.main-link-wrap .main-link-wrap-li:nth-of-type(3) > a span {
+.main-link-wrap .main-link-wrap-li .ml22 {
 	margin-left: 22px;
 }
 
@@ -261,6 +256,10 @@ body {
 	display: block;
 	opacity: 1;
 	visibility: visible;
+}
+
+.main-link-wrap .main-link-wrap-li .sub-link-wrap.fire.notfire {
+	display: none;
 }
 
 .main-link-wrap .main-link-wrap-li .sub-link {
@@ -339,7 +338,7 @@ body {
 	width: 100%;
 }
 
-.main-link-wrap-li .sub-link-wrap:nth-of-type(1) > li {
+.main-link-wrap-li .sub-link-wrap > li {
 	width: 100%;
 }
 
@@ -530,14 +529,12 @@ body {
 }
 
 .news-ttl-h3-more a::before {
-	background: -webkit-repeating-linear-gradient(90deg, #6d8495 0px, #6d8495 2px, transparent 2px, transparent 4px);
-	background: -o-repeating-linear-gradient(90deg, #6d8495 0px, #6d8495 2px, transparent 2px, transparent 4px);
+	border-top: 2px dotted #6d8495;
 	content: '';
 	height: 2px;
 	left: 0;
 	position: absolute;
 	top: 30%;
-	transform: translateY(-50%);
 	width: 74px;
 }
 

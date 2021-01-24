@@ -1,7 +1,7 @@
 @media (max-width: 767px) {
 
 .test {
-	color: #0f0;
+	color: #0ff;
 	font-size: 12px;
 }
 
@@ -174,10 +174,6 @@ html {
 	margin-bottom: 0px;
 }
 
-.main-link-wrap .main-link-wrap-li > a span::before {
-	content: none;
-}
-
 .main-link-wrap .main-link-wrap-li > a span::after {
 	background-color: #ED6FB0;
 	bottom: 0;
@@ -257,10 +253,6 @@ html {
 	margin-bottom: 10px;
 }
 
-.main-link-wrap .main-link-wrap-li:nth-of-type(1) .sub-link-wrap a {
-	width: 100%;
-}
-
 .main-link-wrap .main-link-wrap-li .sub-link-wrap > li:nth-of-type(even) a {
 	padding-left: 28px;
 }
@@ -269,15 +261,11 @@ html {
 	left: 7px;
 }
 
-.main-link-wrap .main-link-wrap-li:nth-of-type(1) > a span,
-.main-link-wrap .main-link-wrap-li:nth-of-type(2) > a span,
-.main-link-wrap .main-link-wrap-li:nth-of-type(3) > a span {
+.main-link-wrap .main-link-wrap-li .hassub {
 	position: relative;
 }
 
-.main-link-wrap .main-link-wrap-li:nth-of-type(1) > a span::before,
-.main-link-wrap .main-link-wrap-li:nth-of-type(2) > a span::before,
-.main-link-wrap .main-link-wrap-li:nth-of-type(3) > a span::before {
+.main-link-wrap .main-link-wrap-li .hassub::before {
 	background-image: url("../img/imgs0/ico_arrow01.png");
 	content: '';
 	height: 11px;
@@ -288,9 +276,8 @@ html {
 	width: 16px;
 }
 
-.main-link-wrap .main-link-wrap-li:nth-of-type(2) > a span,
-.main-link-wrap .main-link-wrap-li:nth-of-type(3) > a span {
-	margin-left: 0px;
+.main-link-wrap .main-link-wrap-li .ml22 {
+	margin-left: 0;
 }
 
 .main-link-wrap .main-link-wrap-li:nth-of-type(2) {
@@ -314,6 +301,10 @@ html {
 }
 
 .main-link-wrap .main-link-wrap-li .sub-link-wrap.fire {
+	display: flex;
+}
+
+.main-link-wrap .main-link-wrap-li .sub-link-wrap.fire.notfire {
 	display: flex;
 }
 
@@ -472,16 +463,20 @@ html {
 	opacity: .7;
 }
 
-.main-link-wrap .main-link-wrap-li:nth-of-type(4) {
+.main-link-wrap .main-link-wrap-li:last-child {
+	margin-bottom: 14px;
+}
+
+.main-link-wrap .mlwl-news {
 	margin-bottom: 12px;
 }
 
-.main-link-wrap .main-link-wrap-li:nth-of-type(4) .main-link {
+.main-link-wrap .mlwl-news .main-link.trfr270deg {
 	margin-bottom: 0;
 }
 
-.main-link-wrap .main-link-wrap-li:last-child {
-	margin-bottom: 14px;
+.main-link-wrap .mlwl-news .main-link.trfr270deg::before {
+	transform: translateY(-50%) rotate(270deg);
 }
 
 .main-link-wrap-li .sub-link-wrap:nth-of-type(1) > li {
