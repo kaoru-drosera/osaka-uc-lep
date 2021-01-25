@@ -21,6 +21,14 @@ html {
 	overflow-x: hidden;
 }
 
+html.htmlfire {
+	overflow: hidden;
+}
+
+.html.htmlfire {
+	overflow: hidden;
+}
+
 .headersp .burgmenu.sp {
 	padding-bottom: 6px;
 	padding-left: 5px;

@@ -26,11 +26,12 @@ $(function(){
 
   $(".burg").on("click",function(){
     $('.pty').toggleClass("active");
-    $(this).parents().find('.header').toggleClass("active")
+    $(this).parents().find('.header').toggleClass("active");
+    $('html').toggleClass("htmlfire");
   });
   $(".closebtn").on("click",function(){
     $('.pty').removeClass("active");
-    $(this).parents().find('.header').removeClass("active")
+    $(this).parents().find('.header').removeClass("active");
   });
 
 
