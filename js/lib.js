@@ -32,6 +32,7 @@ $(function(){
   $(".closebtn").on("click",function(){
     $('.pty').removeClass("active");
     $(this).parents().find('.header').removeClass("active");
+    $('html').removeClass("htmlfire");
   });
 
 
