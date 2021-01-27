@@ -847,22 +847,17 @@ _:future,
 
 .nsinfo-txtwrap .subwrap {
 	bottom: 0;
+	display: flex;
+	justify-content: flex-end;
 	right: 0;
-	text-align: right;
 	width: 100%;
 }
 
-.nsinfo-txtwrap .subwrap p {
-	padding-left: 0;
-}
-
-.nsinfo-txtwrap .subwrap p::before {
-	left: 0;
-	margin-bottom: 0;
+.nsinfo-txtwrap .subwrap::before {
 	width: 100%;
 }
 
-.nsinfo-txtwrap .subwrap p span {
+.nsinfo-txtwrap .subwrap span {
 	padding-left: 10px;
 }
 
@@ -1705,13 +1700,7 @@ _:future,
 	width: 100%;
 }
 
-.itninfo-txtwrap .subwrap p {
-	padding-left: 0;
-}
-
-.itninfo-txtwrap .subwrap p::before {
-	left: 0;
-	margin-bottom: 0;
+.itninfo-txtwrap .subwrap::before {
 	width: 100%;
 }
 
