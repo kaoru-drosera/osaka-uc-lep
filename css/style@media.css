@@ -60,7 +60,7 @@ html.htmlfire {
 	left: 0;
 }
 
-.header .container {
+.header .header-container {
 	-webkit-overflow-scrolling: touch;
 	background: transparent;
 	height: 100vh;
@@ -68,7 +68,7 @@ html.htmlfire {
 	overflow-x: hidden;
 }
 
-.header .wrapper {
+.header .header-wrapper {
 	display: -ms-flex;
 	display: flex;
 	flex-direction: column;
@@ -88,6 +88,10 @@ html.htmlfire {
 	position: absolute;
 	top: 20px;
 	width: 275px;
+}
+
+.logo .imgwrap a {
+	display: block;
 }
 
 .burgmenu {
@@ -642,7 +646,7 @@ html.htmlfire {
 	margin-top: 58px;
 }
 
-.news .wrapper {
+.news .news-wrapper {
 	width: 100%;
 }
 
@@ -865,11 +869,11 @@ _:future,
 	margin-bottom: 32px;
 }
 
-.international .container {
+.international .international-container {
 	padding: 0 14px 0;
 }
 
-.international .wrapper {
+.international .international-wrapper {
 	outline: 1px solid #fff;
 	outline-offset: -5px;
 	padding: 34px 20px;
@@ -959,7 +963,7 @@ _:future,
 	padding: 0;
 }
 
-.opencampus .wrapper {
+.opencampus .opencampus-wrapper {
 	width: 100%;
 }
 
@@ -1034,7 +1038,7 @@ _:future,
 	padding: 0;
 }
 
-.footer .wrapper {
+.footer .f-wrapper {
 	margin: auto;
 	min-width: auto;
 	padding: 40px 15px 24px;
@@ -1851,7 +1855,7 @@ _:future,
 	transform: translateX(-50%);
 }
 
-.opencampus.contact .wrapper {
+.opencampus.contact .opencampus-wrapper {
 	width: 100%;
 }
 
