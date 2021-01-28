@@ -646,7 +646,7 @@ html.htmlfire {
 	margin-top: 58px;
 }
 
-.news .news-wrapper {
+.news-wrapper {
 	width: 100%;
 }
 
@@ -869,11 +869,11 @@ _:future,
 	margin-bottom: 32px;
 }
 
-.international .international-container {
+.international-container {
 	padding: 0 14px 0;
 }
 
-.international .international-wrapper {
+.international-wrapper {
 	outline: 1px solid #fff;
 	outline-offset: -5px;
 	padding: 34px 20px;
@@ -963,7 +963,7 @@ _:future,
 	padding: 0;
 }
 
-.opencampus .opencampus-wrapper {
+.opencampus-wrapper {
 	width: 100%;
 }
 
